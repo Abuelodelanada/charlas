@@ -13,7 +13,6 @@ class Madre
     }
 }
 
-
 class Hija extends Madre
 {
     // Se pueden redeclarar las propiedades pública y
@@ -29,15 +28,14 @@ class Hija extends Madre
 }
 
 $madre = new Madre();
+$madre->imprimePropiedades();
+// Public de Madre, Protected de Madre y Private de Madre
 // print($madre->public);    // Funciona bien
 // print($madre->protected); // Error Fatal
 // print($madre->private);   // Error Fatal
 
-$madre->imprimePropiedades();
-// Public de Madre, Protected de Madre y Private de Madre
-
 $hija = new Hija();
-// print($hija->protected); // Error Fatal
-// print($hija->private);   // Undefined
 $hija->imprimePropiedades();
 // Public de Hija, Protected de Hija, Undefined
+// print($hija->protected); // Error Fatal
+// print($hija->private);   // Undefined
