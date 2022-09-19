@@ -35,8 +35,6 @@ function ingresarAlCampo(Bovino $animal) {
 
 $vaca = new Vaca();
 ingresarAlCampo($vaca);
-
 $humano = new Humano();
 ingresarAlCampo($humano);
-
 

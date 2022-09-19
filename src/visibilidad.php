@@ -39,3 +39,4 @@ $hija->imprimePropiedades();
 // Public de Hija, Protected de Hija, Undefined
 // print($hija->protected); // Error Fatal
 // print($hija->private);   // Undefined
+

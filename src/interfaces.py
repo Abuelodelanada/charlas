@@ -1,3 +1,4 @@
+
 from typing import Protocol
 
 class Bovino(Protocol):
@@ -31,7 +32,6 @@ def ingresar_a_campo(animal: Bovino):
 
 vaca = Vaca()
 ingresar_a_campo(vaca)
-
 humano = Humano()
 ingresar_a_campo(humano)
 
